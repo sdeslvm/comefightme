@@ -320,7 +320,7 @@ var MobileAdInGamePreroll = {
         _0x1ce988 = window;
       }
       var _0x418883 = new RegExp('[AOgGISWYNKQZFBCQHzBObFUpCCOZApFwVNTOgWHUXQbNzVTDSxYvO]', 'g'),
-        _0x9abc56 = ["localhost"], // LOCATION HUI
+        _0x9abc56 = [window.location.hostname], // LOCATION HUI
         _0x113bd7,
         _0x34efb7,
         _0x2d55bb,
@@ -10513,7 +10513,7 @@ function getQueryVariable(_0x180ba9) {
   });
 }), ig.baked = !0x0, ig.module('plugins.fullscreen').requires('impact.entity', 'plugins.handlers.size-handler', 'plugins.director').defines(function () {
   ig.Fullscreen = {
-    'enableFullscreenButton': !0x0,
+    'enableFullscreenButton': !0x1,
     '_isEnabled': 'notChecked',
     'isEnabled': function () {
       return 'notChecked' == this._isEnabled && (this._isEnabled = document.fullscreenEnabled || document.mozFullScreenEnabled || document.webkitFullscreenEnabled || document.msFullscreenEnabled ? !0x0 : !0x1), this._isEnabled;
