@@ -166,9 +166,9 @@ var _STRINGS = {
       }
     },
     'MoreGames': {
-      'Enabled': !0x0,
-      'Link': 'http://www.marketjs.com/game/links/mobile',
-      'NewWindow': !0x0
+      'Enabled': !0x1,
+      'Link': '',
+      'NewWindow': !0x1
     },
     'Gamecenter': {
       'Enabled': !0x0
